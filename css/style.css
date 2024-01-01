@@ -1,19 +1,22 @@
+body {
+    margin: 0;
+}
+
 .navbar {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: rgba(0,0,0,1);
     width: 50%;
     margin-left: 25%;
-    border-radius: 20%;
 }
 
 .btn {
-    color: #2E1760;
-    border: 1px solid #2E1760;
+    color: #2da0fd;
+    border: 1px solid #2da0fd;
 }
 
 .btn:hover {
-    background-color: #2E1760;
+    background-color: #2da0fd;
     border: 1px solid #DFF3E4;
 }
 
@@ -43,4 +46,11 @@ body {
 
 .line {
     margin: 0;
+    border: 2px solid darkgray;
+}
+
+section {
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: white;
 }
